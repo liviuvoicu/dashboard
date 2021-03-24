@@ -1,5 +1,7 @@
 import './App.css';
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import AppWithRouterAccess from './AppWithRouterAccess';
 
 class App extends React.Component {
   constructor(props){
@@ -21,7 +23,11 @@ class App extends React.Component {
 render(){
   return (
     <div>
-      <div className="widget"></div>
+      <div className="widget">
+        <Router>
+          <AppWithRouterAccess/>
+        </Router>
+      </div>
     </div>
   );
 }
