@@ -1,0 +1,17 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  background-image: url("index_background.jpg");
+  background-color: #cccccc;
+}
+
+.widget {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 70vw;
+  background-color: #222;
+  opacity: 0.7;
+}
